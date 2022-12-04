@@ -3,7 +3,7 @@
 import sys
 
 def help():
-    print("Usage: ./{} {{memory address}} {{value to write}} {{offset}}".format(sys.argv[0]))
+    print("Usage: {} {{memory address}} {{value to write}} {{offset}}".format(sys.argv[0]))
     print("Address and value format: 0xXXXXXXXX")
     print("Offset - number of octets from $esp to start of buffer")
     exit(1)
