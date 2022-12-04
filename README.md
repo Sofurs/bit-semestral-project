@@ -55,7 +55,7 @@ Run exploits:
 [>] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAThis is from an unreachable function!
 ```
 
-Utility Functions:\
+Utility Functions:
 
 ```
 [?] Usage: ./utilities/payload_offset.py {number of %x}
@@ -72,7 +72,7 @@ Utility Functions:\
 [>] DCBA%7$s
 ```
 
-```c
+```
 [?] Uage: ./utilities/payload_write.py {memory address} {value to write} {offset}
 [?] Address and value format: 0xXXXXXXXX
 [?] Offset - number of octets from $esp to start of buffer
