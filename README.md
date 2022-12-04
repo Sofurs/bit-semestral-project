@@ -21,6 +21,8 @@ This repository is for educational and informational purposes **only**!
 
 ## Requirements
 
+GCC, Make
+
 Tested with Python **3.10**, **3.11** \
 Python libraries: **pwntools**
 
